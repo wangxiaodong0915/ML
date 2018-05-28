@@ -9,6 +9,8 @@ os.chdir(PATH)
 
 df = pd.read_csv(PATH + 'iris.data', names = ['sepal length', 'sepal width', 'petal length', 'petal width', 'class'])
 
+print(df['petal width'])
+
 import matplotlib.pyplot as plt
 plt.style.use('ggplot')
 #%matplotlib inline
